@@ -1,40 +1,56 @@
-# 🤖 G-Chatbot:
-This started simple. Just an idea — what if I build something that talks back?
-Not something huge. Just… something that responds.
-G-Chatbot is a basic chatbot project. It takes user input. Thinks a bit. Then replies.
-Sometimes clean. Sometimes a little rough. But it works.
+# 🤖 G-Chatbot
 
-## 🚀 Features:
-* Takes user input and responds
-* Uses API for smarter replies
-* Logic is simple. Easy to follow
-* Beginner-friendly, not overcomplicated
+G-Chatbot is a web-based AI chatbot built as a full-stack project. It provides a simple conversational interface where users can interact with Google's Gemini AI through a Node.js and Express backend.
 
-## 🛠️ Tech Stack:
-* Java (Maven project)
-* API integration
-* Basic NLP… or you can say logic-based thinking
+The project started as a basic chatbot and was gradually improved with conversation context, a personality quiz, responsive UI, and better user interaction features.
 
-# 📚 What I Learned:
-I didn’t just code this. I understood things.
-* How chatbots actually work behind the scenes
-* How APIs connect everything together
-* Debugging… a lot of debugging (yeah, that part was real)
-* Improving responses step by step
+## 🚀 Features
 
-# ▶️ How to Run:
-Nothing fancy here. Just follow along:
-1. Clone the repo
-2. Open it in IntelliJ or Eclipse
-3. Add your API key (important… don’t skip this)
-4. Run the main file and see it talk
-   
-# 🔐 Security Note:
-No API keys are included. Obviously.
-Create your own `.env` or config file and plug it in.
+- 💬 AI-powered chat using Gemini
+- 🧠 Conversation context for follow-up questions
+- 🧩 MBTI personality quiz using `/mbti`
+- ⌨️ Typing animation while waiting for a response
+- 📋 Copy AI responses
+- 🕒 Message timestamps
+- 🗑️ Clear chat functionality
+- 📱 Responsive interface
+- ⚠️ Basic API and error handling
+- 🔐 API key kept on the backend using environment variables
 
-#🚧 Status:
-This is a beginner-level project built for learning and practice.
+## 🛠️ Tech Stack
 
-#👨‍💻 Author
-Gautam
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+- CORS
+- dotenv
+
+### AI
+- Google Gemini API
+
+## 📁 Project Structure
+
+```text
+G-chatbot/
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── GV-ai-logo.jpg
+│   ├── imageicon.svg
+│   ├── submit.svg
+│   └── Mbtiimages/
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── .gitignore
+└── README.md
