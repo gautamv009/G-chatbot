@@ -1,27 +1,27 @@
 # 🤖 G-Chatbot
 
-G-Chatbot is a web-based AI chatbot built as a full-stack project. It provides a simple conversational interface where users can interact with Google's Gemini AI through a Node.js and Express backend.
+G-Chatbot is an AI-powered web chatbot built using HTML, CSS, JavaScript, Node.js, Express.js, and the Google Gemini API.
 
-The project started as a basic chatbot and was gradually improved with conversation context, a personality quiz, responsive UI, and better user interaction features.
+The project provides a simple conversational interface with additional features such as conversation context, an MBTI personality quiz, responsive design, and useful chat controls.
 
 ## 🚀 Features
 
-- 💬 AI-powered chat using Gemini
+- 💬 AI-powered conversations using Google Gemini
 - 🧠 Conversation context for follow-up questions
 - 🧩 MBTI personality quiz using `/mbti`
-- ⌨️ Typing animation while waiting for a response
+- ⌨️ Typing animation
 - 📋 Copy AI responses
 - 🕒 Message timestamps
 - 🗑️ Clear chat functionality
-- 📱 Responsive interface
-- ⚠️ Basic API and error handling
-- 🔐 API key kept on the backend using environment variables
+- 📱 Responsive user interface
+- ⚠️ API error handling
+- 🔐 API key stored using environment variables
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
 ### Backend
