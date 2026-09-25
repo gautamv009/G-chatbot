@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>G-Chatbot</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="chat-header">
+
+        <div class="brand">
+
+            <img src="GV-ai-logo.jpg"
+                 alt="G-Chatbot"
+                 class="header-logo">
+
+            <div>
+                <h2>G-Chatbot</h2>
+
+                <span class="status">
+                    <span class="status-dot"></span>
+                    AI Assistant
+                </span>
+            </div>
+
+        </div>
+
+        <button id="clearChat">
+            Clear Chat
+        </button>
+
+    </div>
+
+
+    <!-- ================= CHAT CONTAINER ================= -->
+
+    <div class="chat-container">
+
+        <div class="ai-chat-box">
+
+            <img src="GV-ai-logo.jpg"
+                 alt="AI"
+                 id="aiimage"
+                 width="70">
+
+            <div class="ai-chat-area">
+                Hello! How may I help you?
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= PROMPT AREA ================= -->
+
+    <div class="prompt-area">
+
+        <input
+            type="text"
+            id="prompt"
+            placeholder="Message.."
+            autocomplete="off"
+        >
+
+
+        <!-- IMAGE BUTTON -->
+
+        <button id="Image" title="Upload image">
+
+            <img src="imageicon.svg"
+                 alt="Upload Image">
+
+            <input
+                type="file"
+                accept="image/*"
+                hidden
+            >
+
+        </button>
+
+
+        <!-- SEND BUTTON -->
+
+        <button id="Submit" title="Send message">
+
+            <img src="submit.svg"
+                 alt="Send">
+
+        </button>
+
+
+        <!-- INPUT HINT -->
+
+        <p class="input-hint">
+            Press Enter to send • Type /mbti for the personality quiz
+        </p>
+
+    </div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
